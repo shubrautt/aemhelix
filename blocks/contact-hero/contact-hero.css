@@ -31,14 +31,8 @@
 }
 
 .contact-hero-container .contact-hero > div {
-    display: flex;   
-    -webkit-column-gap: 75pt;
-    -moz-column-gap: 75pt;
-    column-gap: 75pt;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
+    column-gap: 75pt;
     flex-wrap: wrap;
 }
 
@@ -56,11 +50,9 @@
 
 .contact-hero-container .contact-hero > div div:nth-child(2) {
     border-radius: 15px;
-    -webkit-filter: grayscale(1);
     filter: grayscale(1);
     height: 625px;
     overflow: hidden;
-    -webkit-transition: .3s ease-out;
     transition: .3s ease-out;
     width: 653px;
 }
@@ -93,7 +85,7 @@
 }
 
 .contact-hero-container .contact-hero hr {
-    border: 1px solid rgba(30,30,30,.1);
+    border: 1px solid #1e1e1e1a;
     margin-bottom: 20px;
     margin-top: 25px;
 }

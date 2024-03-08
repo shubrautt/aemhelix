@@ -42,11 +42,11 @@
 }
 
 .header-wrapper .nav-sections ul li:nth-child(1) {
-  padding-left: 0px;
+  padding-left: unset;
 }
 
 .header-wrapper .nav-sections ul li:last-child {
-  padding-right: 0px;
+  padding-right: unset;
 }
 
 .header-wrapper .nav-sections ul li a {
