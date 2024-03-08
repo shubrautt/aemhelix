@@ -9,7 +9,7 @@ main .hero-container {
 .hero {
   position: relative;
   padding: 32px;
-  min-height: 300px;
+  height: 100vh;
 }
 
 .hero h1 {
@@ -17,6 +17,19 @@ main .hero-container {
   margin-left: auto;
   margin-right: auto;
   color: white;
+  animation: 1s anim;
+}
+
+@keyframes anim {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .hero picture {

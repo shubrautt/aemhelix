@@ -1,0 +1,99 @@
+.contact-hero-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.contact-hero-container > .default-content-wrapper {
+    border-bottom: 1px solid #1e1e1e;
+    margin-bottom: 72px;
+    padding: 0 578px 65px 0;
+    width: 100%;
+}
+
+.contact-hero-container > .default-content-wrapper h1 {
+    color: #1e1e1e;
+    font-size: clamp(2.88rem,3.21vw + 2.15rem,6rem);
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -.24pc;
+    line-height: clamp(2.88rem,3.46vw + 2.1rem,6.25rem);
+    margin-bottom: 14px;
+}
+
+.contact-hero-container > .default-content-wrapper p {
+    color: #1e1e1e;
+    font-size: clamp(1rem,.26vw + .94rem,1.25rem);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -.16px;
+    line-height: clamp(1.31rem,.32vw + 1.24rem,1.63rem);
+}
+
+.contact-hero-container .contact-hero > div {
+    display: flex;   
+    -webkit-column-gap: 75pt;
+    -moz-column-gap: 75pt;
+    column-gap: 75pt;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.contact-hero-container .contact-hero > div div:nth-child(1) {
+    max-width: 410px;
+}
+
+.contact-hero-container .contact-hero > div div:nth-child(1) ul {
+    padding-left: 20px;
+    position: relative;
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.contact-hero-container .contact-hero > div div:nth-child(2) {
+    border-radius: 15px;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    height: 625px;
+    overflow: hidden;
+    -webkit-transition: .3s ease-out;
+    transition: .3s ease-out;
+    width: 653px;
+}
+
+.contact-hero-container .contact-hero > div div:nth-child(2) picture {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-hero-container .contact-hero > div div:nth-child(2) picture img {
+    object-fit: cover;
+}
+
+.contact-hero-container .contact-hero h3 {
+    color: #1e1e1e;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 9px;
+}
+
+.contact-hero-container .contact-hero p {
+    color: #1e1e1e;
+    font-size: 1pc;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.contact-hero-container .contact-hero hr {
+    border: 1px solid rgba(30,30,30,.1);
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
